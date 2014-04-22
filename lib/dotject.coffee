@@ -5,4 +5,4 @@ module.exports =
       editor = atom.workspace.activePaneItem
 
       converted = dotject(editor.getSelection().getText())
-      editor.getSelection().insertText(converted)
+      editor.getSelection().insertText(JSON.stringify(converted))
