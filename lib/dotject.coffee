@@ -1,9 +1,8 @@
+dotject = require 'dotject'
 module.exports =
-  activate: ->
-    atom.workspaceView.command "dotject:convert", => @convert()
+  activate: (state) ->
+    atom.workspaceView.command "dotject:convert", '.editor', ->
+      editor = atom.workspace.activePaneItem
 
-  convert: ->
-    selection = atom.workspace.getActiveEditor().getSelection()
-
-    dj = require 'dotject'
-    selection.insertText dj(selection.getText())
+      converted = dotject(editor.getSelection().getText())
+      editor.getSelection().insertText(converted)
