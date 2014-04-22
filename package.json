@@ -1,7 +1,7 @@
 {
   "name": "dotject",
   "main": "./lib/dotject",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Dot notation to object",
   "activationEvents": [
     "dotject:convert"
