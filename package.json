@@ -1,0 +1,15 @@
+{
+  "name": "dotject",
+  "main": "./lib/dotject",
+  "version": "0.1.0",
+  "description": "Dot notation to object",
+  "activationEvents": ["dotject:convert"],
+  "repository": "https://github.com/leecrossley/atom-dotject",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "dependencies": {
+     "dotject": "~0.6.x"
+  }
+}
