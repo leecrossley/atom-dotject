@@ -1,2 +1,2 @@
 ".editor":
-    "cmd-d": "dotject:convert"
+    "shift-cmd-J": "dotject:convert"

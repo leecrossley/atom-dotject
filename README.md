@@ -4,9 +4,9 @@ Dot notation to object. Shortcode your object composition using [dotject](https:
 
 ## Usage
 
-Highlight your dotject string and use `ctrl-d` (default) to perform the conversion.
+Highlight your dotject string and use `shift-cmd-J` (default) to perform the conversion.
 
-Highlighting `a.b.c` then pressing `ctrl-d` will replace a.b.c with:
+Highlighting `a.b.c` then pressing `shift-cmd-J` will replace a.b.c with:
 
 ```
 {
